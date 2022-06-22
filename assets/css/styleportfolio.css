@@ -50,7 +50,6 @@ section {
 
 .heroimage {
   height: 400px;
-  background-image: url(../images/killua-yoyo.GIF);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -77,4 +76,51 @@ section {
   justify-content: baseline;
   font-size: 20px;
   margin-top: 300px;
+}
+
+/* about section styling */
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 50px;
+  width: 90%;
+  align-items: center;
+}
+
+.flex-rows {
+  display: flex;
+  justify-content: left;
+}
+
+.title-for-section {
+  font-size: 35px;
+  margin: 0 0 0 80px;
+  width: 50%;
+  color: #9003fc;
+}
+
+.about-info {
+  flex: 2 20%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+/* make sure to add a border color */
+.about-border1 {
+  border-right: 3px solid black;
+  height: 150px;
+  flex: 2 1%;
+}
+
+.about-text {
+  flex: 25;
+}
+.about-text p {
+  font-size: 15px;
+  text-align: left;
+  margin-left: 30px;
+  width: 100%;
+  line-height: 1.8;
 }
