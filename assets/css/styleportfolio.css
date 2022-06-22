@@ -39,3 +39,42 @@ header nav ul li a {
   padding-bottom: 2px;
   font-family: "Lobster", cursive;
 }
+
+/* add padding to section element for proper alignment on the webpage */
+
+section {
+  padding: 10px;
+}
+
+/* add styling to hero image for background */
+
+.heroimage {
+  height: 400px;
+  background-image: url(../images/killua-yoyo.GIF);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+/* add an employee photo and styling */
+
+.employeephoto {
+  position: absolute;
+  top: 150px;
+  left: 30px;
+  border-style: solid;
+  border-radius: 25px;
+  border-width: 3px;
+  border-color: #9003fc;
+  box-shadow: 5px 5px 8px gray;
+}
+
+.heroimage h2 {
+  display: flex;
+  justify-content: baseline;
+  font-size: 20px;
+  margin-top: 300px;
+}
