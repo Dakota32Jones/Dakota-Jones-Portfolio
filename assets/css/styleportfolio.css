@@ -291,3 +291,32 @@ figcaption {
     padding-top: 10px;
   }
 }
+
+/* cell phone screen styling */
+
+@media screen and (max-width: 600px) {
+  .employeephoto {
+    left: 160px;
+  }
+
+  .heroimage h2 {
+    margin-top: 350px;
+    padding-right: 125px;
+  }
+
+  .about {
+    margin: 20px 20px;
+  }
+
+  .about-border1 {
+    height: 350px;
+  }
+
+  .about-border2 {
+    flex: 2;
+  }
+
+  .about-border3 {
+    height: 70px;
+  }
+}
