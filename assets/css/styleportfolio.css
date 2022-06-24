@@ -128,7 +128,7 @@ section {
 .about-border2 {
   border-right: 3px solid black;
   height: 555px;
-  flex: 2 11%;
+  flex: 2 15%;
 }
 
 .container {
@@ -212,7 +212,7 @@ figcaption {
 .about-border3 {
   border-right: 3px solid black;
   height: 100px;
-  flex: 2 10%;
+  flex: 2 12%;
 }
 
 .contact-info {
@@ -227,4 +227,67 @@ figcaption {
   list-style: none;
   margin-left: 15px;
   width: 100%;
+}
+
+/* tablet and phone screen code */
+
+@media screen and (max-width: 768px) {
+  header {
+    display: block;
+  }
+
+  header h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  header nav ul li a {
+    justify-content: space-between;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-rows {
+    padding-bottom: 25px;
+  }
+
+  .about-border1 {
+    flex: 2 5%;
+    height: 225px;
+  }
+
+  .about-text p {
+    text-align: center;
+    width: 90%;
+  }
+
+  .title-for-section {
+    display: contents;
+  }
+
+  .about-border2 {
+    flex: 0;
+    height: 330px;
+  }
+
+  .about-border3 {
+    flex: 2 10.3%;
+    height: 65px;
+  }
+  .contact-info ul li a {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
 }
