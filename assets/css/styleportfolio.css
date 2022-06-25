@@ -1,4 +1,5 @@
 /* remember to add font-family to navbar: 'Lobster' , cursive */
+/* also could use root tag and var to customize page but did not get to it. Was told the application did not have to be pretty, just functional at this moment */
 
 * {
   margin: 0;
@@ -142,6 +143,8 @@ section {
   margin-left: 15px;
   width: 80%;
 }
+
+/* adding css grid for work images so they can be displayed properly with the first image being bigger than the rest */
 
 .gallery {
   display: grid;
@@ -292,7 +295,7 @@ figcaption {
   }
 }
 
-/* cell phone screen styling */
+/* smaller tablet styling */
 
 @media screen and (max-width: 600px) {
   .employeephoto {
